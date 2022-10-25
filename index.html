@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tak Toe</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <h1 id="turn">Player One Turn</h1>
+    <table>
+        <tr>
+            <td class="btn" id="c1"><button onclick="mainFunc('c1')"></button></td>
+            <td class="btn" id="c2"><button onclick="mainFunc('c2')"></button></td>
+            <td class="btn" id="c3"><button onclick="mainFunc('c3')"></button></td>
+        </tr>
+        <tr>
+            <td class="btn" id="c4"><button onclick="mainFunc('c4')"></button></td>
+            <td class="btn" id="c5"><button onclick="mainFunc('c5')"></button></td>
+            <td class="btn" id="c6"><button onclick="mainFunc('c6')"></button></td>
+        </tr>
+        <tr>
+            <td class="btn" id="c7"><button onclick="mainFunc('c7')"></button></td>
+            <td class="btn" id="c8"><button onclick="mainFunc('c8')"></button></td>
+            <td class="btn" id="c9"><button onclick="mainFunc('c9')"></button></td>
+        </tr>
+    </table>
+
+    <button id="reset" onclick="location.reload();">Reset</button>
+    <div>
+        <h1>Status</h1>
+        <h2 id="status"></h2>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
